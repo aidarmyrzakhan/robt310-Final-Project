@@ -41,7 +41,7 @@ ipython -c "%run your_script.ipynb"
 
 ## Parameters
 
-Below is a description of the most important parameters ``run_reconstruction`` python file:
+Below is a description of the most important parameters ``run_reconstruction.py`` file:
 
 #### Main parameters
 
