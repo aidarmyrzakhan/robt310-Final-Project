@@ -24,6 +24,8 @@ python codes/run_reconstruction.py \
   --display \
   --show_events
 ```
+For inference with GPU you can use the [kaggle notebook](https://www.kaggle.com/code/aidarmyrzakhan/robotics)
+
 
 - Run Denoising & Debluring notebook with reconstructed images
 ```bash
