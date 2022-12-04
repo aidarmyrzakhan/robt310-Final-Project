@@ -10,7 +10,7 @@ Dependencies:
 - [OpenCV](https://opencv.org/)
 
 ## Run
-If your data is in aedat4 format:
+- If your data is in aedat4 format:
 ```bash
 python aedat4_txt.py
 ```
@@ -47,5 +47,13 @@ Below is a description of the most important parameters:
 
 - ``--display`` (default: False): display the video reconstruction in real-time in an OpenCV window.
 - ``--show_events`` (default: False): show the input events side-by-side with the reconstruction. If ``--output_folder`` is set, the previews will also be saved to disk in ``/path/to/output/folder/events``.
+
+
+- Run Denoising & Debluring notebook with reconstructed images
+```bash
+ipython -c "%run your_script.ipynb"
+```
+
+-Run Matlab file Filter.m for spatial filtering
 
 
