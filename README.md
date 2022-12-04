@@ -25,6 +25,14 @@ python run_reconstruction.py \
   --show_events
 ```
 
+- Run Denoising & Debluring notebook with reconstructed images
+```bash
+ipython -c "%run your_script.ipynb"
+```
+
+-Run Matlab file Filter.m for spatial filtering
+
+
 ## Parameters
 
 Below is a description of the most important parameters:
@@ -36,7 +44,7 @@ Below is a description of the most important parameters:
 - ``--window_duration`` / ``-T`` (default: 33 ms) Duration of each event window, in milliseconds. The value of this parameter has strong influence on the image reconstruction quality. Its value may need to be adapted to the dynamics of the scene. Ignored if `--fixed_duration` is not set.
 - ``--Imin`` (default: 0.0), `--Imax` (default: 1.0): linear tone mapping is performed by normalizing the output image as follows: `I = (I - Imin) / (Imax - Imin)`. If `--auto_hdr` is set to True, `--Imin` and `--Imax` will be automatically computed as the min (resp. max) intensity values.
 - ``--auto_hdr`` (default: False) Automatically compute `--Imin` and `--Imax`. Disabled when `--color` is set.
-- ``--color`` (default: False): if True, will perform color reconstruction as described in the paper. Only use this with a [color event camera](http://rpg.ifi.uzh.ch/CED.html) such as the Color DAVIS346.
+- ``--color`` (default: False): if True, will perform color reconstruction.
 
 #### Output parameters
 
@@ -47,13 +55,5 @@ Below is a description of the most important parameters:
 
 - ``--display`` (default: False): display the video reconstruction in real-time in an OpenCV window.
 - ``--show_events`` (default: False): show the input events side-by-side with the reconstruction. If ``--output_folder`` is set, the previews will also be saved to disk in ``/path/to/output/folder/events``.
-
-
-- Run Denoising & Debluring notebook with reconstructed images
-```bash
-ipython -c "%run your_script.ipynb"
-```
-
--Run Matlab file Filter.m for spatial filtering
 
 
