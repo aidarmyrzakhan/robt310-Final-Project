@@ -9,6 +9,10 @@ Dependencies:
 - [Pandas](https://pandas.pydata.org/)
 - [OpenCV](https://opencv.org/)
 
+## Files to download
+- Download pretrained [model](https://drive.google.com/file/d/1ZJt8Km_l3eIXIGnlAqA7Vfj-6Qxh7WJX/view?usp=share_link)
+- Download example [data](https://drive.google.com/file/d/10GUlUID-h2KzNpQZ7bMMOs1yzl5PCQMl/view?usp=share_link)
+
 ## Run
 - If your data is in aedat4 format:
 ```bash
