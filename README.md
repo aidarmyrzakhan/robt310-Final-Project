@@ -28,7 +28,7 @@ python codes/run_reconstruction.py \
   --display \
   --show_events
 ```
-For inference with GPU you can use the [kaggle notebook](https://www.kaggle.com/code/aidarmyrzakhan/robotics)
+To get coloured images you can [kaggle notebook](https://www.kaggle.com/code/aidarmyrzakhan/robotics) for inference with GPU.
 
 
 - Run Denoising & Debluring notebook with reconstructed images
