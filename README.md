@@ -23,7 +23,7 @@ python codes/aedat4_txt.py
 ```bash
 python codes/run_reconstruction.py \
   -c pretrained/E2VID_lightweight.pth.tar \
-  -i data/dynamic_6dof.zip \
+  -i data/output.zip \
   --auto_hdr \
   --display \
   --show_events
