@@ -1,9 +1,4 @@
-% ROBT 310 - Lecture 11 Matlab Codes
-%
-% Author: Zhanat (modified from Atakan )
-% Date: 2021
 
-%%
 close all ; clc; clear;     % Close all figure windows, Clear the screen and the workspace memory
 
 %% Examples of image enhancement by smoothing, masking, adding
