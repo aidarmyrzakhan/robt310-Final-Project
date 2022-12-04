@@ -12,12 +12,12 @@ Dependencies:
 ## Run
 - If your data is in aedat4 format:
 ```bash
-python aedat4_txt.py
+python codes/aedat4_txt.py
 ```
 - Run reconstruction:
 
 ```bash
-python run_reconstruction.py \
+python codes/run_reconstruction.py \
   -c pretrained/E2VID_lightweight.pth.tar \
   -i data/dynamic_6dof.zip \
   --auto_hdr \
